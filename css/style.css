@@ -1,0 +1,231 @@
+.header{
+    width: 100%;
+    position: relative;
+    background-color: #0000ff;
+}
+body{
+    font-family:sans-serif;
+    margin: 1.3rem;
+}
+body h1{
+    font-size: 1.3rem;
+    color: #00FF00;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    border-bottom: solid #e0d7d700 1px;
+    padding: 0px;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;  
+    text-decoration: none;
+    color: #fff;
+}
+.nav-links ul li a{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;  
+    text-decoration: none;
+    color: #fff;
+}
+nav img{
+    width: 90px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    
+}
+.home-img{
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url("../img/Admin-Block.jpg");
+    padding: 150px 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.home-img h1{
+    color: #00FF00;
+    font-size: 48px;
+    text-align: center
+}
+.home-btn{
+    text-decoration: none;
+    color: #00FF00;
+    border: 1px solid #00FF00;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.about-page title{
+  padding: 0px 20px;
+  font-size: 1.4rem;
+  display: block;
+}
+.about-page h1{
+ padding:20px;
+}
+.about-page h2{
+    padding:0px 20px;
+    font-size: 18px;
+    
+   }
+.about-page p{
+    padding: 10px 20px;
+    line-height: 30px;
+    font-size: 18px;
+}
+.address p{
+    font-size: 14px;
+}
+hr{
+    margin: 20px;
+   background-color:#ffa500;
+   border: 0px;
+   height: 0.0625rem;
+}
+.home-img p{
+    color:#fff;
+    font-size: 18px;
+    line-height: 30px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: #000;
+  }
+
+.drop-content{
+    color: #000;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown:hover.drop-content{
+    display: block;
+  }
+  .flex_contact{
+    display: flex;
+
+  }
+  .address{
+    width: 50%;
+
+  }
+
+.Contact-Form{
+    width:50%;
+    margin:0 auto;
+    text-align:center;
+}
+.Contact-Form h2{
+    color:#ffffff;
+    text-transform:capitalize;
+    margin-bottom:20px;
+    font-size:30px;
+}
+.Contact-Form p{
+    color:#9999B9;
+    margin-bottom:50px;
+}
+.input-fields{
+    width:100%;
+    float:left;
+    overflow:hidden;
+    margin-right:30px;
+    
+   
+}
+.input-fields input{
+     width:100%;
+     padding:15px 20px;
+     margin-bottom:20px;
+     border:0;
+     border-radius:3px ;
+     border: solid 1px;
+ }
+.msg{
+    width:100%;
+    overflow:hidden;
+    margin-top: 70px;
+    
+}
+.msg textarea{
+    width:100%;
+     padding:10px 20px;
+     margin-bottom:20px;
+     height:160px;
+     border:0;
+     border-radius:3px ;
+     resize:none;
+     border: solid 1px;
+}
+.Contact-Form button{
+    padding:15px 20px;
+    color:#ffffff;
+    text-transform:uppercase;
+    border:1px solid green;
+    background:blue;
+    cursor:pointer;
+    border-radius:3px;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+ .Contact-Form button:hover{
+   border:1px solid #0000ff;
+   background:none;
+   color: #0000ff;
+ }
+.details{
+    width: 300px;
+    height:150px;
+    color: black;
+    background:white;
+    padding:10px;
+    float:left;
+    overflow:hidden;
+    margin-right:160px;
+    margin-top:50px;
+    border-radius:3px;
+    margin-bottom:50px;
+}
+.details:last-child{
+   margin-right:0;
+}
+.details h3{
+    padding-top: 60px;
+    font-size:16px;
+    color:black;
+    font-style:normal;
+    margin-left:10px;
+    margin-bottom:20px;
+    text-transform:uppercase;
+    text-align:left;
+    
+}
+.details p{
+   font-size:13px;
+   font-family: Arial;
+    color:black;
+    font-style:normal;
+    margin:0;
+    padding:0;
+    text-align:left;
+    text-transform:capitalize;
+    margin-left:10px;
+    margin-bottom:2px;
+}
